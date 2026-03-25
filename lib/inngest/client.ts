@@ -1,8 +1,11 @@
-import {Inngest} from "inngest";
+import { Inngest } from "inngest";
 
 export const inngest = new Inngest({
-    id: 'Signalist',
+    id: "signalist",
+    //eventKey: process.env.INNGEST_EVENT_KEY, // ✅ REQUIRED
     ai: {
-        ai: {gemini: {apiKey: process.env.GEMINI_API_KEY!}}
-    }
-})
+        gemini: {
+            apikey: process.env.GEMINI_API_KEY!,
+        },
+    },
+});
