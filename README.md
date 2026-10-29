@@ -1,136 +1,171 @@
-<div align="center">
-  <div>
-    <img src="https://img.shields.io/badge/-Next.js-black?style=for-the-badge&logoColor=white&logo=next.js&color=black"/>
-    <img src="https://img.shields.io/badge/-Better Auth-black?style=for-the-badge&logoColor=white&logo=betterauth&color=black"/>
-<img src="https://img.shields.io/badge/-Shadcn-black?style=for-the-badge&logoColor=white&logo=shadcnui&color=black"/>
-<img src="https://img.shields.io/badge/-Inngest-black?style=for-the-badge&logoColor=white&logo=inngest&color=black"/><br/>
+# Signalist
 
-<img src="https://img.shields.io/badge/-MongoDB-black?style=for-the-badge&logoColor=white&logo=mongodb&color=00A35C"/>
-<img src="https://img.shields.io/badge/-CodeRabbit-black?style=for-the-badge&logoColor=white&logo=coderabbit&color=9146FF"/>
-<img src="https://img.shields.io/badge/-TailwindCSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=38B2AC"/>
-<img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6"/>
+A full-stack stock market application for tracking prices, managing watchlists, and receiving automated alerts. Signalist combines live market data with event-driven background workflows and AI-generated summaries, all behind secure user authentication.
 
-  </div>
+**Live demo:** https://signalist-stock-app-jebisam12-3803s-projects.vercel.app
 
-  <h3 align="center">Stock Market App — Alerts, Charts, AI Insights</h3>
-</div>
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwindcss&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-00A35C?logo=mongodb&logoColor=white)
+![Inngest](https://img.shields.io/badge/Inngest-000000)
+![Better Auth](https://img.shields.io/badge/Better_Auth-000000)
 
-## 📋 <a name="table">Table of Contents</a>
+---
 
-1. ✨ [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
+## Features
 
-## <a name="introduction">✨ Introduction</a>
+- **Stock dashboard:** track prices with interactive charts and historical data
+- **Search:** find stocks quickly by symbol or company name
+- **Watchlists:** build a personal watchlist of the stocks you follow
+- **Price alerts:** set alert thresholds and receive email notifications
+- **Company insights:** view key financials, recent news, and market data for each company
+- **AI-powered summaries:** personalized market digests generated with Google Gemini
+- **Background workflows:** scheduled and event-driven jobs for alerts, emails, and reports, powered by Inngest
+- **Authentication:** secure sign-up and sign-in with Better Auth
+- **Responsive UI:** accessible, customizable components built with shadcn/ui and Tailwind CSS
 
-AI-powered modern stock market app built with Next.js, Shadcn, Better Auth, and Inngest! Track real-time prices, set personalized alerts, explore company insights, and manage watchlists. The admin dashboard allows managing stocks, publishing news, and monitoring user activity, while event-driven workflows power automated alerts, AI-driven daily digests, earnings notifications, and sentiment analysis—perfect for devs who want a dynamic, real-time financial platform.
+## Architecture
 
-
-## <a name="tech-stack">⚙️ Tech Stack</a>
-
-- **[Better Auth](https://www.better-auth.com/)** is a framework-agnostic authentication and authorization library for TypeScript. It provides built-in support for email/password login, social sign-on (Google, GitHub, Apple, and more), and multi-factor authentication, simplifying user authentication and account management.
-
-- **[CodeRabbit](https://jsm.dev/stocks-coderabbit)** is an AI-powered code review assistant that integrates with GitHub. It helps developers catch bugs, enforce best practices, and maintain consistent code quality across pull requests, reducing manual review effort and speeding up the development workflow.
-
-
-- **[Finnhub](https://finnhub.io/)** is a real-time financial data API that provides stock, forex, and cryptocurrency market data. It offers developers access to fundamental data, economic indicators, and news, making it useful for building trading apps, dashboards, and financial analysis tools.
-
-- **[Inngest](https://jsm.dev/stocks-inngest)** is a platform for event-driven workflows and background jobs. It allows developers to build reliable, scalable automated processes such as real-time alerts, notifications, and AI-powered workflows.
-
-- **[MongoDB](https://www.mongodb.com/)** is a flexible, high-performance NoSQL database. It stores data in JSON-like documents, supports dynamic schemas, and provides robust features for scalability, replication, and querying.
-
-- **[Nodemailer](https://nodemailer.com/)** is a Node.js library for sending emails easily. It supports various transport methods such as SMTP, OAuth2, and third-party services, making it a reliable tool for handling transactional emails, notifications, and contact forms in applications.
-
-- **[Next.js](https://nextjs.org/docs)** is a powerful React framework for building full-stack web applications. It provides server-side rendering, static site generation, and API routes, allowing developers to create optimized and scalable apps quickly.
-
-- **[Shadcn](https://ui.shadcn.com/docs)** is an open-source library of fully customizable, accessible React components. It helps teams rapidly build consistent, visually appealing UIs while allowing full control over design and layout.
-
-- **[TailwindCSS](https://tailwindcss.com/)** is a utility-first CSS framework that allows developers to build custom, responsive designs quickly without leaving their HTML. It provides pre-defined classes for layout, typography, colors, and more.
-
-- **[TypeScript](https://www.typescriptlang.org/)** is a statically typed superset of JavaScript that improves code quality, tooling, and error detection. It is ideal for building large-scale applications and enhances maintainability.
-
-## <a name="features">🔋 Features</a>
-
-👉 **Stock Dashboard**: Track real-time stock prices with interactive line and candlestick charts, including historical data, and filter stocks by industry, performance, or market cap.
-
-👉 **Powerful Search**: Quickly find the best stocks with an intelligent search system that helps you navigate through Signalist.
-
-👉 **Watchlist & Alerts**: Create a personalized watchlist, set alert thresholds for price changes or volume spikes, and receive instant email notifications to stay on top of the market.
-
-👉 **Company Insights**: Explore detailed financial data such as PE ratio, EPS, revenue, recent news, filings, analyst ratings, and sentiment scores for informed decision-making.
-
-👉 **Real-Time Workflows**: Powered by **Inngest**, automate event-driven processes like price updates, alert scheduling, automated reporting, and AI-driven insights.
-
-👉 **AI-Powered Alerts & Summaries**: Generate personalized market summaries, daily digests, and earnings report notifications, helping users track performance and make data-driven decisions.
-
-👉 **Customizable Notifications**: Fine-tune alerts and notifications based on user watchlists and preferences for a highly personalized experience.
-
-👉 **Analytics & Insights**: Gain insights into user behavior, stock trends, and engagement metrics, enabling smarter business and trading decisions.
-
-And many more, including code architecture and reusability.
-
-## <a name="quick-start">🤸 Quick Start</a>
-
-Follow these steps to set up the project locally on your machine.
-
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
-
-**Cloning the Repository**
-
-```bash
-git clone https://github.com/adrianhajdin/signalist_stock-tracker-app.git
-cd signalist_stock-tracker-app
+```
+┌────────────────────────┐        ┌──────────────────────┐
+│   Next.js (App Router) │ ─────▶ │   Finnhub API        │  market data, news
+│   UI + server actions  │        └──────────────────────┘
+│                        │        ┌──────────────────────┐
+│                        │ ─────▶ │   MongoDB            │  users, watchlists, alerts
+│                        │        └──────────────────────┘
+│                        │        ┌──────────────────────┐
+│   Better Auth          │ ─────▶ │   Inngest            │  background workflows
+└────────────────────────┘        └──────────┬───────────┘
+                                             │
+                              ┌──────────────┴──────────────┐
+                              ▼                             ▼
+                     ┌────────────────┐           ┌────────────────┐
+                     │  Gemini (AI)   │           │  Nodemailer    │
+                     │  summaries     │           │  email delivery│
+                     └────────────────┘           └────────────────┘
 ```
 
-**Installation**
+## Tech Stack
 
-Install the project dependencies using npm:
+| Area | Technology |
+|------|-----------|
+| Framework | Next.js, React |
+| Language | TypeScript |
+| Styling and UI | Tailwind CSS, shadcn/ui |
+| Authentication | Better Auth |
+| Database | MongoDB |
+| Background jobs | Inngest |
+| Market data | Finnhub API |
+| AI | Google Gemini |
+| Email | Nodemailer |
+| Hosting | Vercel |
+
+## Project Structure
+
+```
+signalist_stock_app/
+├── app/           # Next.js routes, layouts, and pages
+├── components/    # Reusable UI components
+├── database/      # MongoDB connection and data models
+├── hooks/         # Custom React hooks
+├── lib/           # Server actions, integrations, and shared utilities
+├── scripts/       # Helper scripts
+├── types/         # Shared TypeScript types
+└── public/assets/ # Static assets
+```
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) and npm
+- A [MongoDB](https://www.mongodb.com/products/platform/atlas-database) database (Atlas free tier works)
+- A [Finnhub](https://finnhub.io/) API key
+- A [Google Gemini](https://aistudio.google.com/) API key
+- An email account that supports SMTP for Nodemailer
+
+### 1. Clone and install
 
 ```bash
+git clone https://github.com/jebickson/signalist_stock_app.git
+cd signalist_stock_app
 npm install
 ```
 
-**Set Up Environment Variables**
+### 2. Configure environment variables
 
-Create a new file named `.env` in the root of your project and add the following content:
+Create a `.env` file in the project root:
 
 ```env
-NODE_ENV='development'
+NODE_ENV=development
 NEXT_PUBLIC_BASE_URL=http://localhost:3000
 
-# FINNHUB
-NEXT_PUBLIC_NEXT_PUBLIC_FINNHUB_API_KEY=
+# Finnhub
+NEXT_PUBLIC_FINNHUB_API_KEY=
 FINNHUB_BASE_URL=https://finnhub.io/api/v1
 
-# MONGODB
+# MongoDB
 MONGODB_URI=
 
-# BETTER AUTH
+# Better Auth
 BETTER_AUTH_SECRET=
 BETTER_AUTH_URL=http://localhost:3000
 
-# GEMINI
+# Google Gemini
 GEMINI_API_KEY=
 
-#NODEMAILER
+# Nodemailer
 NODEMAILER_EMAIL=
 NODEMAILER_PASSWORD=
 ```
 
-Replace the placeholder values with your real credentials. You can get these by signing up at: [**MongoDB**](https://www.mongodb.com/products/platform/atlas-database), [**Gemini**](https://aistudio.google.com/prompts/new_chat?utm_source=chatgpt.com), [**Inngest**](https://jsm.dev/stocks-inggest), [**Finnhub**](https://finnhub.io).
+| Variable | Description |
+|----------|-------------|
+| `NEXT_PUBLIC_BASE_URL` | Public URL of the app |
+| `NEXT_PUBLIC_FINNHUB_API_KEY` / `FINNHUB_BASE_URL` | Finnhub credentials and API base URL |
+| `MONGODB_URI` | MongoDB connection string |
+| `BETTER_AUTH_SECRET` | Long random string used to sign sessions |
+| `BETTER_AUTH_URL` | Base URL Better Auth runs on |
+| `GEMINI_API_KEY` | Google Gemini API key for AI summaries |
+| `NODEMAILER_EMAIL` / `NODEMAILER_PASSWORD` | Sender account for notification emails (use an app password) |
 
-**Running the Project**
+### 3. Run the app
+
+Start the Next.js development server and the Inngest dev server in two terminals:
 
 ```bash
 npm run dev
+```
+
+```bash
 npx inngest-cli@latest dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+Open [http://localhost:3000](http://localhost:3000) for the app. The Inngest dev dashboard, where you can trigger and inspect workflows, runs at [http://localhost:8288](http://localhost:8288).
+
+## Deployment
+
+The app is deployed on [Vercel](https://vercel.com/). Add the same environment variables in your Vercel project settings, set `NEXT_PUBLIC_BASE_URL` and `BETTER_AUTH_URL` to your production URL, and connect the deployment to Inngest Cloud so scheduled workflows run in production.
+
+## Security Notes
+
+- Never commit `.env` files or API keys.
+- Variables prefixed with `NEXT_PUBLIC_` are bundled into browser code and visible to users. Keep any key you want private, including paid-plan API keys, in a server-only variable and call the provider from server code.
+- Use an app-specific password, not your main account password, for Nodemailer.
+
+## Roadmap
+
+- [ ] Automated tests for server actions and workflows
+- [ ] CI pipeline with GitHub Actions
+- [ ] Portfolio tracking with profit and loss
+- [ ] Push and SMS notification channels
+
+## Author
+
+**Jebickson Samuel**
+GitHub: [@jebickson](https://github.com/jebickson)
+
+## Acknowledgments
+
+Built while following a Next.js stock tracker course by JavaScript Mastery. Market data is provided by [Finnhub](https://finnhub.io/).
