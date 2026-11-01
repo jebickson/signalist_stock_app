@@ -1,27 +1,40 @@
 # Table of contents
 
-* [Welcome](README.md)
+## 01 – Introduction & Overview
 
-## Getting Started
+* [Introduction](README.md)
+* [Project Overview](01-introduction-and-overview/project-overview.md)
+* [Features & Functionalities](01-introduction-and-overview/features-and-functionalities.md)
+* [Technology Stack](01-introduction-and-overview/technology-stack.md)
 
-* [Getting started](getting-started/getting-started.md)
-* [Quickstart](getting-started/quickstart.md)
-* [Your first project](getting-started/your-first-project.md)
+## 02 – Architecture & Design
 
-## Core concepts
+* [System Architecture](02-architecture-and-design/system-architecture.md)
+* [Project Structure](02-architecture-and-design/project-structure.md)
+* [Database Design](02-architecture-and-design/database-design.md)
 
-* [Core concepts](core-concepts/core-concepts.md)
-* [Workspaces and projects](core-concepts/workspaces-and-projects.md)
-* [Permissions](core-concepts/permissions.md)
+## 03 – Installation & Configuration
 
-## Guides
+* [Installation & Setup](03-installation-and-configuration/installation-and-setup.md)
+* [Environment Variables](03-installation-and-configuration/environment-variables.md)
 
-* [Guides](guides/guides.md)
-* [Custom domains](guides/custom-domains.md)
-* [Automations](guides/automations.md)
+## 04 – API & Core Functionality
 
-## Reference
+* [API Reference](04-api-and-core-functionality/api-reference.md)
+* [Authentication & Authorization](04-api-and-core-functionality/authentication-and-authorization.md)
+* [Background Jobs & Notifications](04-api-and-core-functionality/background-jobs-and-notifications.md)
 
-* [Reference](reference/reference.md)
-* [Configuration](reference/configuration.md)
-* [Glossary](reference/glossary.md)
+## 05 – Development & Deployment
+
+* [Developer Guide](05-development-and-deployment/developer-guide.md)
+* [Deployment & Hosting](05-development-and-deployment/deployment-and-hosting.md)
+* [Testing & Quality Assurance](05-development-and-deployment/testing-and-quality-assurance.md)
+* [Troubleshooting & FAQ](05-development-and-deployment/troubleshooting-and-faq.md)
+* [User Guide](05-development-and-deployment/user-guide.md)
+
+## 06 – Project Information
+
+* [Glossary](06-project-information/glossary.md)
+* [License, Credits & Acknowledgements](06-project-information/license-credits-and-acknowledgements.md)
+* [Changelog & Version History](06-project-information/changelog-and-version-history.md)
+* [Future Enhancements & Roadmap](06-project-information/future-enhancements-and-roadmap.md)

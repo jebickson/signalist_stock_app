@@ -1,30 +1,134 @@
 ---
 description: >-
-  Everything you need to build, deploy, and manage your projects on the
-  platform.
+  An overview of Signalist, its purpose, core capabilities, and underlying
+  technologies.
 icon: hand-wave
 ---
 
-# Welcome
+# Introduction
 
-Welcome to the platform. These docs cover everything from your first project to advanced workflows — pick a starting point below or ask the Assistant to jump straight to what you need.
+### 1. Overview
 
-<button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">Ask a question…</button>
+**Signalist** is a full-stack financial market tracking application designed to help users monitor market information, explore financial assets, manage personalized watchlists, and stay informed about market movements.
 
-<button type="button" class="button secondary" data-action="ask" data-query="How do I deploy my first project" data-icon="rocket-launch">Deploy your first project</button><button type="button" class="button secondary" data-action="ask" data-query="How do I set up a custom domain" data-icon="globe">Set up a custom domain</button><button type="button" class="button secondary" data-action="ask" data-query="How do I invite my team" data-icon="user-group">Invite your team</button>
+The application provides a centralized platform that brings together market data, interactive visualizations, user authentication, and personalized tracking features.
+
+Built using modern web technologies, Signalist focuses on delivering a responsive, intuitive, and efficient market-monitoring experience.
+
+### 2. Problem Statement
+
+Monitoring financial markets often requires users to switch between multiple platforms to access market information, track price movements, manage watchlists, and follow financial assets.
+
+This creates several challenges:
+
+* **Fragmented Information:** Market information is distributed across different platforms.
+* **Difficult Tracking:** Monitoring multiple financial assets can become time-consuming.
+* **Limited Personalization:** Users need a convenient way to organize and monitor their preferred assets.
+* **User Experience:** Switching between different tools can make market monitoring less efficient.
+* **Data Accessibility:** Users need a centralized interface to explore and understand market information.
+
+### 3. Proposed Solution
+
+Signalist addresses these challenges by providing a centralized market-monitoring platform with an integrated user experience.
+
+The application combines:
+
+* Market information and price tracking.
+* Interactive market dashboards and charts.
+* Personalized watchlist management.
+* User authentication and account management.
+* Responsive user interface.
+* Organized financial market information.
+
+By bringing these capabilities together, Signalist aims to simplify how users access and monitor financial market information.
+
+### 4. Project Objectives
+
+The primary objectives of Signalist are:
+
+1. Develop a modern full-stack financial market tracking application.
+2. Provide an intuitive dashboard for monitoring market information.
+3. Implement interactive visualizations for understanding market movements.
+4. Enable users to manage personalized watchlists.
+5. Integrate external market data services.
+6. Implement secure user authentication.
+7. Develop a responsive interface for different screen sizes.
+8. Create a scalable and maintainable application architecture.
+
+### 5. Key Features
+
+| Feature            | Description                                     |
+| ------------------ | ----------------------------------------------- |
+| Market Dashboard   | Centralized interface for market information.   |
+| Market Tracking    | Monitor financial assets and price movements.   |
+| Interactive Charts | Visualize market information through charts.    |
+| Watchlist          | Organize and track preferred financial assets.  |
+| Authentication     | User registration and login functionality.      |
+| Responsive UI      | Interface optimized for different screen sizes. |
+
+### 6. Technology Overview
+
+Signalist is developed using a modern full-stack technology ecosystem.
+
+**Frontend**
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* shadcn/ui
+* Radix UI
+
+**Backend and Database**
+
+* Next.js server-side functionality
+* MongoDB
+* Mongoose
+
+**Authentication and Communication**
+
+* Better Auth
+* Nodemailer
+
+**Development and Deployment**
+
+* Git
+* GitHub
+* Vercel
+
+### 7. Project Scope
+
+The project focuses on developing an integrated financial market monitoring experience.
+
+The scope includes frontend development, backend functionality, database integration, authentication, market data integration, and application deployment.
+
+The application is intended for users who want a convenient platform to explore financial market information and organize their preferred assets.
+
+### 8. Project Information
+
+| Property       | Details                           |
+| -------------- | --------------------------------- |
+| Project Name   | Signalist                         |
+| Project Type   | Full-Stack Web Application        |
+| Domain         | Financial Market Tracking         |
+| Frontend       | Next.js, React, TypeScript        |
+| Backend        | Next.js server-side functionality |
+| Database       | MongoDB                           |
+| Authentication | Better Auth                       |
+| Deployment     | Vercel                            |
+| Source Code    | GitHub                            |
+
+### 9. Future Enhancements
+
+Potential improvements include:
+
+* Advanced market analytics.
+* Personalized market notifications.
+* Additional financial data integrations.
+* Enhanced charting capabilities.
+* Improved portfolio monitoring.
+* Advanced filtering and search functionality.
 
 ***
 
-{% hint style="success" icon="sparkles" %}
-**New: scheduled deploys and team-level audit logs.** Schedule deploys for any future date and review every action taken in your workspace.
-
-<a href="https://app.gitbook.com/s/HW18jce4P6J1w4KPylr1/" class="button secondary">See what's new</a>
-{% endhint %}
-
-## Where to start
-
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4><i class="fa-rocket-launch" style="color:$primary;">:rocket-launch:</i></h4></td><td><h4>Getting started</h4></td><td>Set up your account and ship your first project in minutes.</td><td><a href="getting-started/getting-started.md">getting-started.md</a></td></tr><tr><td><h4><i class="fa-book" style="color:$primary;">:book:</i></h4></td><td><h4>Core concepts</h4></td><td>Understand workspaces, projects, and how permissions work.</td><td><a href="core-concepts/core-concepts.md">core-concepts.md</a></td></tr><tr><td><h4><i class="fa-graduation-cap" style="color:$primary;">:graduation-cap:</i></h4></td><td><h4>Guides</h4></td><td>Walkthroughs for common tasks like custom domains and automations.</td><td><a href="guides/guides.md">guides.md</a></td></tr><tr><td><h4><i class="fa-book-open" style="color:$primary;">:book-open:</i></h4></td><td><h4>Reference</h4></td><td>Detailed configuration options, limits, and terminology.</td><td><a href="reference/reference.md">reference.md</a></td></tr></tbody></table>
-
-## Popular tasks
-
-<table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th><th data-type="content-ref"></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td><h4>For builders</h4></td><td><a href="getting-started/quickstart.md">quickstart.md</a></td><td><a href="getting-started/your-first-project.md">your-first-project.md</a></td><td><a href="guides/custom-domains.md">custom-domains.md</a></td></tr><tr><td><h4>For admins</h4></td><td><a href="core-concepts/permissions.md">permissions.md</a></td><td><a href="reference/configuration.md">configuration.md</a></td><td><a href="core-concepts/workspaces-and-projects.md">workspaces-and-projects.md</a></td></tr><tr><td><h4>For developers</h4></td><td><a href="guides/automations.md">automations.md</a></td><td><a href="reference/glossary.md">glossary.md</a></td><td><a href="reference/configuration.md">configuration.md</a></td></tr></tbody></table>
+**End of Introduction**
