@@ -36,8 +36,3 @@ site:
               default: true
               content:
                 directory: ./documentation
-        - type: section-group
-          key: section-group-2
-          title: Doc
-          draft: true
-          children: []
