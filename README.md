@@ -7,7 +7,9 @@ A full-stack stock market application for tracking prices, managing watchlists, 
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwindcss&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-00A35C?logo=mongodb&logoColor=white)
 ![Inngest](https://img.shields.io/badge/Inngest-000000)
-![Better Auth](https://img.shields.io/badge/Better_Auth-000000)
+![Better Auth](https://img.shields.io/badge/Better_Auth-000000)\
+
+</br>
 
 **Live demo:** https://signalist-stock-app-jebisam12-3803s-projects.vercel.app
 </br>
