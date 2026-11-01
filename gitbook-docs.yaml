@@ -2,37 +2,32 @@ $schema: https://api.gitbook.com/gitbook-docs.yaml
 site:
   title: signalist_stock_app
   structure:
-    - type: section-group
-      key: section-group-1
-      title: Documentation
-      draft: true
+    - type: section
+      key: section-1
+      title: Home
+      path: home
+      description: ""
+      icon: house
+      default: true
       children:
-        - type: section
-          key: section-1
+        - type: space
+          key: space-1
           title: Home
           path: home
-          description: ""
-          icon: house
           default: true
-          children:
-            - type: space
-              key: space-1
-              title: Home
-              path: home
-              default: true
-              content:
-                directory: ./home
-        - type: section
-          key: section-2
+          content:
+            directory: ./home
+    - type: section
+      key: section-2
+      title: Documentation
+      path: documentation
+      description: ""
+      icon: book-blank
+      children:
+        - type: space
+          key: space-2
           title: Documentation
           path: documentation
-          description: ""
-          icon: book-blank
-          children:
-            - type: space
-              key: space-2
-              title: Documentation
-              path: documentation
-              default: true
-              content:
-                directory: ./documentation
+          default: true
+          content:
+            directory: ./documentation
