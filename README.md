@@ -2,17 +2,16 @@
 
 A full-stack stock market application for tracking prices, managing watchlists, and receiving automated alerts. Signalist combines live market data with event-driven background workflows and AI-generated summaries, all behind secure user authentication.
 
-**Live demo:** https://signalist-stock-app-jebisam12-3803s-projects.vercel.app
-</br>
-**Documentation:** https://jebickson.gitbook.io/signalist_stock_app
-</br>
 ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwindcss&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-00A35C?logo=mongodb&logoColor=white)
 ![Inngest](https://img.shields.io/badge/Inngest-000000)
 ![Better Auth](https://img.shields.io/badge/Better_Auth-000000)
-
+**Live demo:** https://signalist-stock-app-jebisam12-3803s-projects.vercel.app
+</br>
+**Documentation:** https://jebickson.gitbook.io/signalist_stock_app
+</br>
 ---
 
 ## Features
