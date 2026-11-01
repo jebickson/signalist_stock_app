@@ -68,3 +68,8 @@ site:
           default: true
           content:
             directory: ./help-center
+    - type: section-group
+      key: section-group-1
+      title: Documentation
+      draft: true
+      children: []
