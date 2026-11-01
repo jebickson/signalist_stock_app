@@ -31,6 +31,7 @@ site:
               key: section-2
               title: Documentation
               path: documentation
+              description: ""
               icon: book-blank
               children:
                 - type: space
