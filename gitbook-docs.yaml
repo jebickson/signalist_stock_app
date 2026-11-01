@@ -3,46 +3,6 @@ site:
   title: signalist_stock_app
   structure:
     - type: section
-      key: section-1
-      title: Home
-      path: home
-      icon: house
-      default: true
-      children:
-        - type: space
-          key: space-1
-          title: Home
-          path: home
-          default: true
-          content:
-            directory: ./home
-    - type: section
-      key: section-2
-      title: Documentation
-      path: documentation
-      icon: book-blank
-      children:
-        - type: space
-          key: space-2
-          title: Documentation
-          path: documentation
-          default: true
-          content:
-            directory: ./documentation
-    - type: section
-      key: section-3
-      title: API Reference
-      path: api-reference
-      icon: terminal
-      children:
-        - type: space
-          key: space-3
-          title: API Reference
-          path: api-reference
-          default: true
-          content:
-            directory: ./api-reference
-    - type: section
       key: section-4
       title: Changelog
       path: changelog
@@ -72,4 +32,31 @@ site:
       key: section-group-1
       title: Documentation
       draft: true
-      children: []
+      children:
+        - type: section
+          key: section-1
+          title: Home
+          path: home
+          icon: house
+          default: true
+          children:
+            - type: space
+              key: space-1
+              title: Home
+              path: home
+              default: true
+              content:
+                directory: ./home
+        - type: section
+          key: section-2
+          title: Documentation
+          path: documentation
+          icon: book-blank
+          children:
+            - type: space
+              key: space-2
+              title: Documentation
+              path: documentation
+              default: true
+              content:
+                directory: ./documentation
