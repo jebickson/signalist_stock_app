@@ -12,7 +12,7 @@ A full-stack stock market application for tracking prices, managing watchlists, 
 **Live demo:** https://signalist-stock-app-jebisam12-3803s-projects.vercel.app
 </br>
 **Documentation:** https://jebickson.gitbook.io/signalist_stock_app
-</br>
+
 ---
 
 ## Features
